@@ -1,30 +1,3 @@
-// import React from 'react';
-// import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
-// import Home from './components/Home';
-// import About from './components/About';
-// import Todo from './components/Todo';
-
-// function App() {
-//   return (
-//     <Router>
-//       <nav>
-//         <ul>
-//           <li><Link to="/">Home</Link></li>
-//           <li><Link to="/about">About</Link></li>
-//           <li><Link to="/todo">Todo</Link></li>
-//         </ul>
-//       </nav>
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/about" element={<About />} />
-//         <Route path="/todo" element={<Todo />} />
-//       </Routes>
-//     </Router>
-//   );
-// }
-
-// export default App;
-
 import React from 'react';
 import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { AppBar, Toolbar, Typography, Button, Container, Box } from '@mui/material';
